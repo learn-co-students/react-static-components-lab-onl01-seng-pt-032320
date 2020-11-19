@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import CatComponent from './CatComponent.js'
-import {GraceHopperQuoteComponent} from './GraceHopperQuoteComponent.js'
+import CatComponent from './CatComponent'
+import { GraceHopperQuoteComponent } from './GraceHopperQuoteComponent'
 import MouseComponent from './MouseComponent.js'
 
 class App extends Component {
@@ -8,8 +8,8 @@ class App extends Component {
 		// your code in the return statement below!
 		return (
 			<div className="App">
-				<CatComponent />
-				<GraceHopperQuoteComponent />
+        <CatComponent />
+        <GraceHopperQuoteComponent />
         <MouseComponent />
 			</div>
 		);
