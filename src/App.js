@@ -1,4 +1,7 @@
-import React, { Component } from 'react';
+import React, {Component}  from 'react';
+import CatComponent from './CatComponent';
+import {GraceHopperQuoteComponent} from './GraceHopperQuoteComponent.js'
+import MouseComponent from './MouseComponent'
 
 class App extends Component {
 	render() {
@@ -7,10 +10,16 @@ class App extends Component {
 			<div className="App">
 				<CatComponent />
 				<GraceHopperQuoteComponent />
-				{/* one more component missing */}
+				<MouseComponent />
 			</div>
 		);
 	}
 }
 
 export default App;
+
+
+
+//Props vs state
+// dealing with events
+//
